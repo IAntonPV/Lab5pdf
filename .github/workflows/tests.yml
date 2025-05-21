@@ -15,6 +15,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install fastapi uvicorn pydantic-settings
           pip install pytest httpx pytest-anyio
-          pip install python-multipart  # Для работы с формами в FastAPI
+          pip install python-multipart  
       - name: Run tests
         run: python -m pytest tests/
