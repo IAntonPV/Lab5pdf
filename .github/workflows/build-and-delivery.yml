@@ -23,4 +23,4 @@ jobs:
         uses: docker/build-push-action@v6  # Версия v6 как в ТЗ
         with:
           push: true
-          tags: ${{ vars.DOCKERHUB_USERNAME }}/my-app:latest  # Полный тег
+          tags: ${{ vars.DOCKERHUB_USERNAME }}/my-app:latest  # Полный тегs
